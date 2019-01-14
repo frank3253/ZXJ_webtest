@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动化测试项目说明文档</title>
+</head>
+
+<body>
+<pre style="font-size:10px">
+这是转写机分享页面的自动化测试项目，使用selenium框架，基于python3.
+代码的结构目录如下:
+ZXJ/                               #项目名称转写机
+|- shareweb/                         #子项目分享页面
+|   |- data/                           #测试数据
+|   |- report/                         #测试报告html格式
+|   |  |_ image/                         #测试截图
+|   |_ test_cate/                      #测试用例
+|       |- models/                       #公共的配置函数及公共类
+|       |   |- driver.py                    #驱动文件
+|       |   |- function.py                  #截图文件
+|       |   |_ myunit.py                    #单元测试文件
+|       |- page_obj/                     #测试用例页面对象
+|       |   |_ *Page.py
+|       |_ *_sta.py                      #测试用例文件
+|- driver/                         #存放浏览器驱动，如selenium_server_standalone.jar、chromedriver.exe、IEDriverServer.exe等
+|- package/                        #存放扩展包，如HTMLTestRunner.py
+|- run_shareweb_test.py            #项目主程序，用来运行自动化用例
+|- startup.bat                     #用于启动selenium server
+|_ 自动化测试项目说明文档.html
+</pre>
+</body>
+</html>
