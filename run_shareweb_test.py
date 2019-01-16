@@ -1,3 +1,4 @@
+# coding=utf-8
 from HTMLTestRunner import HTMLTestRunner
 from email.mime.text import MIMEText
 from email.header import Header
@@ -28,7 +29,7 @@ def send_mail(to_list, file_new):
     f.close()
     me = mail_user
     msg = MIMEText(mail_body, 'html', 'utf-8')
-    msg['Subject'] = Header('自动化测试报告')
+    msg['Subject'] = Header('转写机分享页自动化测试报告')
     msg['From'] = me
     msg['To'] = ";".join(to_list)
     try:
@@ -56,16 +57,16 @@ if __name__ == '__main__':
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     filename = './shareweb/report/' + now + 'result.html'
     fp = open(filename, 'wb')
+    discover = unittest.defaultTestLoader.discover("e:/ZXJ_webtest/shareweb/test_case",
+                                                   pattern='test_*.py')
     runner = HTMLTestRunner(stream=fp,
                             title='分享页面自动化测试报告',
                             description='环境 ：window 10 浏览器：chrome')
-    discover = unittest.defaultTestLoader.discover(start_dir='./shareweb/test_case',
-                                                   pattern='1_home_sta.py')
     runner.run(discover)
     fp.close()
     file_path = new_report('./shareweb/report/')
 
-    # if send_mail(mailto_list, file_path):
-    #     print("发送成功")
-    # else:
-    #     print("发送失败")
+    if send_mail(mailto_list, file_path):
+        print("发送成功")
+    else:
+        print("发送失败")

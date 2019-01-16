@@ -15,7 +15,7 @@ class Home(Page):
     # element
     home_01_header_title = (By.XPATH, "//div[@class='hisee-app-header-title']")  # 演讲标题
     home_02_page_number = (By.XPATH, "//html//li[1]/div[1]/div[1]/div[1]/div[1]/span[1]")  # 页码
-    home_03_text_title = (By.XPATH, "//div[@class='text-title']")  # 段标题
+    # home_03_text_title = (By.XPATH, "//div[@class='text-title']")  # 段标题
     home_04_text_area = (By.XPATH, "//html//li[1]/div[1]/div[1]/div[2]/div[2]/p/span")  # 段文本
     home_05_text_button = (By.XPATH, "//html//li[1]/div[1]/div[1]/div[1]/a[1]")  # 展开按钮
     home_06_browse_button = (By.XPATH, "//a[@class='browse-mode-toggle-button normal-mode']")  # 快速浏览
@@ -47,14 +47,14 @@ class Home(Page):
         else:
             return element
 
-    def get_text_title(self):
-        # 获取段落标题
-        try:
-            element = self.find_elements(*self.home_03_text_title)
-        except NoSuchElementException as msg:
-            print("查找元素异常%s" % msg)
-        else:
-            return element
+    # def get_text_title(self):
+    #     # 获取段落标题
+    #     try:
+    #         element = self.find_elements(*self.home_03_text_title)
+    #     except NoSuchElementException as msg:
+    #         print("查找元素异常%s" % msg)
+    #     else:
+    #         return element
 
     def get_text_area(self):
         # 获取文本

@@ -20,5 +20,5 @@ def browser():
 if __name__ == '__main__':
     dr = browser()
     dr.maximize_window()
-    dr.get("http://www.baidu.com")
+    dr.get("http://www.123.com")
     dr.quit()

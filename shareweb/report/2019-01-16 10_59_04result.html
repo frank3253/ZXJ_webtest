@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>分享页面自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-01-15 17:51:30</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.000998</p>
-<p class='attribute'><strong>Status:</strong> none</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-01-16 10:59:04</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:20.637335</p>
+<p class='attribute'><strong>Status:</strong> Pass 1 Failure 1</p>
 
 <p class='description'>环境 ：window 10 浏览器：chrome</p>
 </div>
@@ -221,11 +221,82 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
+<tr class='failClass'>
+    <td>test_1home_sta.HomeTestCast: 测试PC首页</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+</tr>
+
+<tr id='ft1.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_1_header_title</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        fail</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: Traceback (most recent call last):
+  File "e:\ZXJ_webtest\shareweb\test_case\test_1home_sta.py", line 27, in test_1_header_title
+    self.assertEqual(header_title, ture_title, msg=" headertitle is wrong ")
+AssertionError: '北京青年企业家协会刘庆峰演讲' != 'A.I.'
+- 北京青年企业家协会刘庆峰演讲
++ A.I.
+ :  headertitle is wrong 
+Traceback (most recent call last):
+  File "e:\ZXJ_webtest\shareweb\test_case\test_1home_sta.py", line 27, in test_1_header_title
+    self.assertEqual(header_title, ture_title, msg=" headertitle is wrong ")
+AssertionError: '北京青年企业家协会刘庆峰演讲' != 'A.I.'
+- 北京青年企业家协会刘庆峰演讲
++ A.I.
+ :  headertitle is wrong 
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_2_page_number</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
 <tr id='total_row'>
     <td>Total</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>&nbsp;</td>
 </tr>

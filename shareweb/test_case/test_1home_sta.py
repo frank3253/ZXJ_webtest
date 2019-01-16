@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from .page_obj.home_page import Home
+from shareweb.test_case.page_obj.home_page import Home
 from selenium import webdriver
 import unittest, random, sys
 from time import sleep
-from ..test_case.models import myunit, function
+from shareweb.test_case.models import myunit, function
 import configparser
 
 
@@ -38,5 +38,5 @@ class HomeTestCast(myunit.MyTest):
         function.insert_img(self.driver, "2_page_number.jpg")
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
