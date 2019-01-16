@@ -1,6 +1,7 @@
 # coding=utf-8
 from HTMLTestRunner import HTMLTestRunner
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from email.header import Header
 import smtplib
 import unittest
@@ -17,7 +18,7 @@ mail_pass = "iflytek2019"
 
 
 # ===========================发送邮件============================
-def send_mail(to_list, file_new):
+def send_mail(to_list, file_new, file_name):
     """
     to_list:发给谁
     sub:主题
@@ -28,10 +29,19 @@ def send_mail(to_list, file_new):
     mail_body = f.read()
     f.close()
     me = mail_user
-    msg = MIMEText(mail_body, 'html', 'utf-8')
+    msg = MIMEMultipart('related')  # 采用related定义内嵌资源的邮件体
+
+    msgtext = MIMEText(mail_body, 'html', 'utf-8')       # subtype有plain,html等格式
+    msg.attach(msgtext)
+
     msg['Subject'] = Header('转写机分享页自动化测试报告')
     msg['From'] = me
     msg['To'] = ";".join(to_list)
+    attach = MIMEText(mail_body, 'base64', 'utf-8')
+    attach["Content-Type"] = 'application/octet-stream'
+    attach["Content-Disposition"] = 'attachment; filename=' + '"' + file_name + '"'
+    msg.attach(attach)
+
     try:
         s = smtplib.SMTP()
         s.connect(mail_host, 25)
@@ -66,7 +76,7 @@ if __name__ == '__main__':
     fp.close()
     file_path = new_report('./shareweb/report/')
 
-    if send_mail(mailto_list, file_path):
+    if send_mail(mailto_list, file_path, now + 'result.html'):
         print("发送成功")
     else:
         print("发送失败")

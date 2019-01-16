@@ -18,7 +18,7 @@ class HomeTestCast(myunit.MyTest):
     ture_title = cf.get("testdata", "headertitle")
 
     def test_1_header_title(self):
-        # 测试演讲标题是否正确
+        """ 测试演讲标题是否正确"""
         po = Home(self.driver)
         po.open()
         sleep(5)
@@ -28,7 +28,7 @@ class HomeTestCast(myunit.MyTest):
         function.insert_img(self.driver, "1_header_title.jpg")
 
     def test_2_page_number(self):
-        # 测试页码
+        """测试页码"""
         po = Home(self.driver)
         po.open()
         sleep(5)
