@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d48e2df4-b945-4bb6-8939-828379032265" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/HTMLTestRunner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_shareweb_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_shareweb_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-15 17_48_36result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-15 17_48_55result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-15 17_49_38result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-15 17_50_55result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-15 17_51_21result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-15 17_51_30result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-15 17_56_41result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-15 18_19_10result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/test_case/1_home_sta.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/test_case/models/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/models/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="d48e2df4-b945-4bb6-8939-828379032265" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_shareweb_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
+            <state relative-caret-position="1069">
               <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -49,42 +33,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/remote_ts.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding>
-                <element signature="e#24#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#67#110#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="650">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -275,7 +228,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547542281148</updated>
       <workItem from="1547542283907" duration="7525000" />
-      <workItem from="1547549832122" duration="12414000" />
+      <workItem from="1547549832122" duration="13005000" />
     </task>
     <servers />
   </component>
@@ -312,18 +265,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19939000" />
+    <option name="totallyTimeSpent" value="20530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11883943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11883943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,9 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/remote_ts.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-15 20_36_41result.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -470,19 +420,9 @@
     <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-16 10_52_32result.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#67#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
+        <state relative-caret-position="312">
           <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
             <element signature="e#24#60#0" expanded="true" />
@@ -492,11 +432,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_shareweb_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
+        <state relative-caret-position="1069">
           <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3351">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#67#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/remote_ts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
