@@ -8,7 +8,7 @@ import configparser
 
 
 class HomeTestCast(myunit.MyTest):
-    """测试PC首页"""
+    """测试PCweb首页"""
 
     cf = configparser.ConfigParser()
     path = "E:/ZXJ_webtest/config/config.ini"
