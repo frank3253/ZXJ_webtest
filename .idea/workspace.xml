@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d48e2df4-b945-4bb6-8939-828379032265" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_shareweb_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_shareweb_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-16 10_59_04result.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareweb/test_case/models/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/models/driver.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,18 +14,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$getconfigpath.coverage" NAME="getconfigpath Coverage Results" MODIFIED="1548299501463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case/models" />
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$test_1home_sta.coverage" NAME="test_1home_sta Coverage Results" MODIFIED="1548328749309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case" />
     <SUITE FILE_PATH="coverage/ZXJ_webtest$Unittests_in_1_home_sta_py.coverage" NAME="Unittests in 1_home_sta.py Coverage Results" MODIFIED="1547544067157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ZXJ_webtest$unittest_run_shareweb_test.coverage" NAME="unittest run_shareweb_test Coverage Results" MODIFIED="1547605192681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$Unittests_in_test_1home_sta_py.coverage" NAME="Unittests in test_1home_sta.py Coverage Results" MODIFIED="1548298996291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case" />
     <SUITE FILE_PATH="coverage/ZXJ_webtest$Unittests_in_Desktop.coverage" NAME="unittest run_shareweb_test Coverage Results" MODIFIED="1547548838555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ZXJ_webtest$run_shareweb_test.coverage" NAME="run_shareweb_test Coverage Results" MODIFIED="1547640055309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$run_shareweb_test.coverage" NAME="run_shareweb_test Coverage Results" MODIFIED="1548328563572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_shareweb_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="75" selection-end-column="14" />
+            <state relative-caret-position="338">
+              <caret line="40" column="63" lean-forward="true" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
               <folding>
                 <element signature="e#15#56#0" expanded="true" />
               </folding>
@@ -35,10 +37,80 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="e#15#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="40">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding>
+                <element signature="e#24#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-24 19_16_03result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/myunit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,29 +131,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/1/1.py" />
-        <option value="$PROJECT_DIR$/shareweb/test_case/models/driver.py" />
         <option value="$PROJECT_DIR$/shareweb/test_case/1_home_sta.py" />
         <option value="C:/Program Files/Python36/Lib/HTMLTestRunner.py" />
         <option value="$USER_HOME$/Desktop/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/shareweb/test_case/test1_home_sta.py" />
         <option value="$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py" />
-        <option value="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" />
+        <option value="$PROJECT_DIR$/shareweb/test_case/models/function.py" />
+        <option value="$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py" />
+        <option value="$PROJECT_DIR$/shareweb/test_case/models/driver.py" />
         <option value="$PROJECT_DIR$/run_shareweb_test.py" />
+        <option value="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2361" />
-    <option name="y" value="115" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,6 +175,13 @@
               <item name="ZXJ_webtest" type="462c0819:PsiDirectoryNode" />
               <item name="shareweb" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZXJ_webtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZXJ_webtest" type="462c0819:PsiDirectoryNode" />
+              <item name="shareweb" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ZXJ_webtest" type="b2602c69:ProjectViewProjectNode" />
@@ -124,11 +207,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/run_shareweb_test.py" />
+    <property name="last_opened_file_path" value="D:/ZXJ_webtest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -160,7 +244,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_shareweb_test">
+  <component name="RunManager" selected="Python.test_1home_sta">
+    <configuration name="getconfigpath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZXJ_webtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shareweb/test_case/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_shareweb_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ZXJ_webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,19 +289,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for shareweb.test_case.test_1home_sta.HomeTestCast.test_1_header_title" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test_1home_sta" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="ZXJ_webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shareweb/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;shareweb.test_case.test_1home_sta.HomeTestCast.test_1_header_title&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="unittest run_shareweb_test" type="tests" factoryName="Unittests">
@@ -216,13 +329,15 @@
     </configuration>
     <list>
       <item itemvalue="Python.run_shareweb_test" />
+      <item itemvalue="Python.test_1home_sta" />
+      <item itemvalue="Python.getconfigpath" />
       <item itemvalue="Python tests.unittest run_shareweb_test" />
-      <item itemvalue="Python tests.Unittests for shareweb.test_case.test_1home_sta.HomeTestCast.test_1_header_title" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_1home_sta" />
         <item itemvalue="Python.run_shareweb_test" />
-        <item itemvalue="Python tests.Unittests for shareweb.test_case.test_1home_sta.HomeTestCast.test_1_header_title" />
+        <item itemvalue="Python.getconfigpath" />
       </list>
     </recent_temporary>
   </component>
@@ -239,26 +354,39 @@
       <workItem from="1547542283907" duration="7525000" />
       <workItem from="1547549832122" duration="13005000" />
       <workItem from="1547627631119" duration="7770000" />
-      <workItem from="1547637556354" duration="2583000" />
+      <workItem from="1547637556354" duration="3121000" />
+      <workItem from="1547717481094" duration="1152000" />
+      <workItem from="1548150217832" duration="1623000" />
+      <workItem from="1548211626759" duration="2462000" />
+      <workItem from="1548295770752" duration="5866000" />
+      <workItem from="1548328370605" duration="260000" />
+      <workItem from="1548328698002" duration="1674000" />
     </task>
+    <task id="LOCAL-00001" summary="添加邮件模块的注释">
+      <created>1547640600465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547640600465</updated>
+    </task>
+    <task id="LOCAL-00002" summary="function修改一个引入">
+      <created>1547719086876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547719086876</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改注释">
+      <created>1548223352740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548223352741</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="unittest_run_shareweb_test - 2019.01.15 at 18h 39m 56s.xml">
-      <configuration name="unittest run_shareweb_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="unittest_run_shareweb_test - 2019.01.15 at 18h 40m 29s.xml">
-      <configuration name="unittest run_shareweb_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="unittest_run_shareweb_test - 2019.01.15 at 18h 40m 38s.xml">
-      <configuration name="unittest run_shareweb_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="unittest_run_shareweb_test - 2019.01.15 at 19h 01m 41s.xml">
-      <configuration name="unittest run_shareweb_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="unittest_run_shareweb_test - 2019.01.15 at 19h 10m 32s.xml">
-      <configuration name="unittest run_shareweb_test" configurationId="tests" />
-    </history-entry>
     <history-entry file="unittest_run_shareweb_test - 2019.01.15 at 19h 45m 23s.xml">
       <configuration name="unittest run_shareweb_test" configurationId="tests" />
     </history-entry>
@@ -274,21 +402,35 @@
     <history-entry file="unittest_run_shareweb_test - 2019.01.16 at 10h 20m 13s.xml">
       <configuration name="unittest run_shareweb_test" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_1home_sta_py - 2019.01.24 at 10h 41m 50s.xml">
+      <configuration name="Unittests in test_1home_sta.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_1home_sta_py - 2019.01.24 at 10h 42m 07s.xml">
+      <configuration name="Unittests in test_1home_sta.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_1home_sta_py - 2019.01.24 at 10h 42m 33s.xml">
+      <configuration name="Unittests in test_1home_sta.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_1home_sta_py - 2019.01.24 at 10h 43m 40s.xml">
+      <configuration name="Unittests in test_1home_sta.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_1home_sta_py - 2019.01.24 at 11h 03m 16s.xml">
+      <configuration name="Unittests in test_1home_sta.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30883000" />
+    <option name="totallyTimeSpent" value="44458000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120429255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -299,6 +441,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,7 +476,10 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="添加邮件模块的注释" />
+    <MESSAGE value="function修改一个引入" />
+    <MESSAGE value="修改注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -369,15 +515,6 @@
     <entry file="file://$PROJECT_DIR$/shareweb/report/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -392,44 +529,34 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/HTMLTestRunner.py" />
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-15 20_36_41result.html" />
     <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-15 20_51_59result.html" />
     <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-16 10_52_32result.html" />
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3351">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#67#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startup-hub.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/base.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/remote_ts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startup-node.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startup-hub.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -440,20 +567,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/startup-node.bat">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-24 19_16_03result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#15#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="40">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_shareweb_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="75" selection-end-column="14" />
+        <state relative-caret-position="338">
+          <caret line="40" column="63" lean-forward="true" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
           <folding>
             <element signature="e#15#56#0" expanded="true" />
           </folding>
