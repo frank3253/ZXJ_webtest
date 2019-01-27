@@ -1,14 +1,15 @@
 import os
 
 
-def getConfigPath():
+def get_configpath():
 
     path = str(os.path.dirname(os.path.dirname(__file__)))
     path = path.replace('\\', '/')
-    path = path.split('/shareweb')[0] + "/config/config.ini"
+    configpath = path.split('/shareweb')[0] + "/config/config.ini"
 
-    return path
+    return configpath
 
 
 if __name__ == '__main__':
-    print(getConfigPath())
+    print(get_configpath())
+
