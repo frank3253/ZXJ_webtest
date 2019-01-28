@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d48e2df4-b945-4bb6-8939-828379032265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ifly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_shareweb_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_shareweb_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-16 19_46_57result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-24 19_15_25result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareweb/report/2019-01-24 19_16_03result.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shareweb/test_case/models/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/models/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/models/getconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareweb/test_case/models/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/models/myunit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup-hub.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup-node.bat" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +27,23 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ZXJ_webtest$getconfigpath.coverage" NAME="getconfigpath Coverage Results" MODIFIED="1548299501463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case/models" />
-    <SUITE FILE_PATH="coverage/ZXJ_webtest$test_1home_sta.coverage" NAME="test_1home_sta Coverage Results" MODIFIED="1548328749309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case" />
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$test_1home_sta.coverage" NAME="test_1home_sta Coverage Results" MODIFIED="1548569407900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case" />
     <SUITE FILE_PATH="coverage/ZXJ_webtest$Unittests_in_1_home_sta_py.coverage" NAME="Unittests in 1_home_sta.py Coverage Results" MODIFIED="1547544067157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$function.coverage" NAME="function Coverage Results" MODIFIED="1548668858493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case/models" />
     <SUITE FILE_PATH="coverage/ZXJ_webtest$unittest_run_shareweb_test.coverage" NAME="unittest run_shareweb_test Coverage Results" MODIFIED="1547605192681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$driver.coverage" NAME="driver Coverage Results" MODIFIED="1548667300730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case/models" />
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$getconfig.coverage" NAME="getconfig Coverage Results" MODIFIED="1548670133536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case/models" />
     <SUITE FILE_PATH="coverage/ZXJ_webtest$Unittests_in_test_1home_sta_py.coverage" NAME="Unittests in test_1home_sta.py Coverage Results" MODIFIED="1548298996291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shareweb/test_case" />
     <SUITE FILE_PATH="coverage/ZXJ_webtest$Unittests_in_Desktop.coverage" NAME="unittest run_shareweb_test Coverage Results" MODIFIED="1547548838555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ZXJ_webtest$run_shareweb_test.coverage" NAME="run_shareweb_test Coverage Results" MODIFIED="1548328563572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZXJ_webtest$run_shareweb_test.coverage" NAME="run_shareweb_test Coverage Results" MODIFIED="1548667415704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_shareweb_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="40" column="63" lean-forward="true" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+            <state relative-caret-position="546">
+              <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
               <folding>
                 <element signature="e#15#56#0" expanded="true" />
               </folding>
@@ -37,22 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="520">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
                 <element signature="e#15#52#0" expanded="true" />
               </folding>
@@ -61,19 +64,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/getconfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="572">
+              <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+              <folding>
+                <element signature="e#15#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
               <folding>
                 <element signature="e#24#78#0" expanded="true" />
               </folding>
@@ -91,15 +88,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="18" column="29" selection-start-line="16" selection-start-column="1" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-24 19_16_03result.html">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/geckodriver.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="754">
+              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -107,7 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="468">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -136,19 +155,21 @@
         <option value="$USER_HOME$/Desktop/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/shareweb/test_case/test1_home_sta.py" />
         <option value="$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py" />
-        <option value="$PROJECT_DIR$/shareweb/test_case/models/function.py" />
         <option value="$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py" />
-        <option value="$PROJECT_DIR$/shareweb/test_case/models/driver.py" />
-        <option value="$PROJECT_DIR$/run_shareweb_test.py" />
         <option value="$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py" />
+        <option value="$PROJECT_DIR$/shareweb/test_case/models/myunit.py" />
+        <option value="$PROJECT_DIR$/shareweb/test_case/models/driver.py" />
+        <option value="$PROJECT_DIR$/shareweb/test_case/models/function.py" />
+        <option value="$PROJECT_DIR$/shareweb/test_case/models/getconfig.py" />
+        <option value="$PROJECT_DIR$/run_shareweb_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2131" />
+    <option name="y" value="29" />
+    <option name="width" value="1454" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -212,7 +233,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/ZXJ_webtest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -244,8 +265,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_1home_sta">
-    <configuration name="getconfigpath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.getconfig">
+    <configuration name="driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ZXJ_webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,7 +279,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shareweb/test_case/models/driver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZXJ_webtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shareweb/test_case/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shareweb/test_case/models/function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getconfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZXJ_webtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shareweb/test_case/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shareweb/test_case/models/getconfig.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,14 +395,18 @@
     <list>
       <item itemvalue="Python.run_shareweb_test" />
       <item itemvalue="Python.test_1home_sta" />
-      <item itemvalue="Python.getconfigpath" />
+      <item itemvalue="Python.getconfig" />
+      <item itemvalue="Python.driver" />
       <item itemvalue="Python tests.unittest run_shareweb_test" />
+      <item itemvalue="Python.function" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_1home_sta" />
+        <item itemvalue="Python.getconfig" />
+        <item itemvalue="Python.function" />
         <item itemvalue="Python.run_shareweb_test" />
-        <item itemvalue="Python.getconfigpath" />
+        <item itemvalue="Python.driver" />
+        <item itemvalue="Python.test_1home_sta" />
       </list>
     </recent_temporary>
   </component>
@@ -361,6 +430,14 @@
       <workItem from="1548295770752" duration="5866000" />
       <workItem from="1548328370605" duration="260000" />
       <workItem from="1548328698002" duration="1674000" />
+      <workItem from="1548330881193" duration="123000" />
+      <workItem from="1548396041877" duration="1290000" />
+      <workItem from="1548555516290" duration="2679000" />
+      <workItem from="1548575126748" duration="4977000" />
+      <workItem from="1548640605422" duration="7443000" />
+      <workItem from="1548654978100" duration="2783000" />
+      <workItem from="1548663587927" duration="2053000" />
+      <workItem from="1548665832659" duration="4429000" />
     </task>
     <task id="LOCAL-00001" summary="添加邮件模块的注释">
       <created>1547640600465</created>
@@ -383,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548223352741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改注释">
+      <created>1548560503294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548560503294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -419,18 +503,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44458000" />
+    <option name="totallyTimeSpent" value="70235000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1236089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3525741" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,12 +533,12 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11883943" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10969793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19344774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,6 +549,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -532,6 +617,18 @@
     <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-15 20_36_41result.html" />
     <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-15 20_51_59result.html" />
     <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-16 10_52_32result.html" />
+    <entry file="file://$PROJECT_DIR$/startup-node.bat" />
+    <entry file="file://$PROJECT_DIR$/startup-hub.bat" />
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-24 19_16_03result.html" />
+    <entry file="file://$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/remote_ts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -539,45 +636,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/startup-node.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startup-hub.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/getconfigpath.py">
+    <entry file="file://C:/Program Files/Python36/Lib/configparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="336">
+          <caret line="1140" selection-start-line="1140" selection-end-line="1140" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/myunit.py">
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/report/2019-01-24 19_16_03result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="754">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="520">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
             <element signature="e#15#52#0" expanded="true" />
           </folding>
@@ -586,35 +662,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="546">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/report/image/2_page_number.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="468">
+          <caret line="18" column="29" selection-start-line="16" selection-start-column="1" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareweb/test_case/page_obj/home_page.py">
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/getconfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        <state relative-caret-position="572">
+          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shareweb/test_case/models/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/shareweb/test_case/test_1home_sta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
           <folding>
             <element signature="e#24#78#0" expanded="true" />
           </folding>
@@ -623,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_shareweb_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="40" column="63" lean-forward="true" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+        <state relative-caret-position="546">
+          <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
           <folding>
             <element signature="e#15#56#0" expanded="true" />
           </folding>

@@ -1,0 +1,2 @@
+java -jar E:\ZXJ_webtest\driver\selenium-server-standalone-3.141.59.jar -role node -hub "http://127.0.0.1:4444/grid/register" -port 5555 -browser "browserName=internet explorer,maxInstances=5,version=64,platform=WINDOWS"
+pause

@@ -1,0 +1,1 @@
+{ "capabilities":[{ "browserName": "chrome", "maxInstances": 6, "platform": "WINDOWS", "version":"71.0.3578.98","webdriver.chrome.driver":"chromedriver.exe" }], "configuration": { "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy", "maxSession": 5, "port": 8888, "register": true, "registerCycle": 5000, "hub": "http://127.0.0.1:4444" } }

@@ -12,6 +12,7 @@ class Home(Page):
 
     url = "/"
 
+# =========================创建定位元素的参数============================
     # element
     home_01_header_title = (By.XPATH, "//div[@class='hisee-app-header-title']")  # 演讲标题
     home_02_page_number = (By.XPATH, "//html//li[1]/div[1]/div[1]/div[1]/div[1]/span[1]")  # 页码
@@ -29,6 +30,7 @@ class Home(Page):
     home_14_video_currentime = (By.XPATH, "")  # 已播放视频时间
     home_15_out_video = (By.XPATH, "//button[@class='video-exit-action']")  # 退出视频
 
+# =========================创建元素调用的方法============================
     def get_header_title(self):
         # 获取演讲标题
         try:
@@ -47,6 +49,7 @@ class Home(Page):
         else:
             return element
 
+    # 需求变更已删除该元素
     # def get_text_title(self):
     #     # 获取段落标题
     #     try:
